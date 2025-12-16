@@ -17,7 +17,7 @@ const eventDetails = [
   {
     icon: MapPin,
     title: 'Location',
-    info: 'Bengaluru',
+    info: 'Down Town, Frazer Town, Bangalore',
   },
 ];
 
@@ -43,7 +43,7 @@ export function EventDetails() {
             animate={{ rotate: [0, 10, -10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            🎀
+            
           </motion.span>
           <h2 className="text-blue-700">
             Event Details
